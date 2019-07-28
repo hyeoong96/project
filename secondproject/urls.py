@@ -27,4 +27,5 @@ urlpatterns = [
     path('blog/new/',blog.views.new,name='new'),
     path('blog/create/',blog.views.create,name='create'),
     path('portfolio/',portfolio.views.portfolio,name='portfolio'),
+    path('blog/page/', blog.views.home,name='page')
 ]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

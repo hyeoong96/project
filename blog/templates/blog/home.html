@@ -1,13 +1,7 @@
 {% extends 'base.html' %}
-  {% block content %}
-  {% for blog in blogs.all %}
+{% block content %}
   <br>
-  <div class="container">
-    <a href="{% url 'detail' blog.id %}">
-      <h1>{{ blog.title }}</h1>
-    </a>
-    <p>{{ blog.pub_date_pretty }}</p>
-    <p>{{ blog.summary }}<a href="{% url 'detail' blog.id %}">...more</a></p>
-  </div>
-  {% endfor %}
-{% endblock %}
+  <img src = "https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/3rYK/image/1E_5WF52ZAaSsUfbgbf6zOBCOHQ"></a>
+  <h1>여기는 서지형의 페이지 입니다.</h1>
+
+  {% endblock %}
